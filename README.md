@@ -7,6 +7,13 @@ Uses the Whisper library to decode audio data.
 1. Start the application with `uvicorn fapi:app`
 2. Open your web browser and navigate to `http://localhost:8060`
 
+### Tune with the following var env : 
+
+WHISPER_LANGUAGE="English"
+WHISPER_MODEL_NAME="tiny" # large medium small
+WHISPER_DEVICE="cpu" # cuda 
+
+
 ## Endpoints
 
 - `/` - The home page
