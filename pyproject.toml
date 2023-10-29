@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fapi"
+version = "0.1.0"
+description = ""
+authors = ["fanf <fanf@fanf>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10.0"
+python-dotenv = "^1.0.0"
+fastapi = "^0.104.0"
+openai-whisper = "^20230918"
+uvicorn = "^0.23.2"
+vastai-helper = {git = "https://github.com/fanff/vastai-helper.git"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
